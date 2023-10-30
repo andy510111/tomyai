@@ -1,0 +1,33 @@
+/* Apply basic styling to the body and center the image */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Style the image container */
+  .centered-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style the image for enlargement */
+.centered-image-container img {
+    max-width: 100%; /* Ensure the image doesn't exceed its original size */
+    max-height: 100%; /* Ensure the image doesn't exceed its original size */
+    width: auto; /* Automatically scale the image width */
+    height: auto; /* Automatically scale the image height */
+}
+
+#arrow-area:hover {
+    background-color: rgb(168, 126, 77) !important; /* Change the background color to yellow on hover */
+}
+
+/* Style adjustments for the irregular shape */
+#arrow-area {
+    background-color: transparent; /* Initial background color for the arrow area */
+    border:none
+}
